@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2FBE3"
+    android:backgroundTint="#E9F4DC">
+
+
+    <Button
+        android:id="@+id/settingsbackbutton"
+        android:layout_width="385dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/linkbutton"
+        android:layout_width="320dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#414C41"
+        android:text="Connect to Spotify"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/deleteaccountbutton"
+        android:layout_width="320dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#414C41"
+        android:text="Delete Account"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linkbutton" />
+
+    <Button
+        android:id="@+id/signoutbutton"
+        android:layout_width="319dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#414C41"
+        android:text="Sign Out"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deleteaccountbutton" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="46dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="110dp"
+        android:text="Name:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signoutbutton" />
+
+    <TextView
+        android:id="@+id/emailtext"
+        android:layout_width="46dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="170dp"
+        android:text="Email:"
+        app:layout_constraintBottom_toTopOf="@+id/settingsbackbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <TextView
+        android:id="@+id/spotify_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="N/A"
+        app:layout_constraintBaseline_toBaselineOf="@+id/username"
+        app:layout_constraintStart_toEndOf="@+id/username" />
+
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="N/A"
+        app:layout_constraintBaseline_toBaselineOf="@+id/emailtext"
+        app:layout_constraintStart_toEndOf="@+id/emailtext" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

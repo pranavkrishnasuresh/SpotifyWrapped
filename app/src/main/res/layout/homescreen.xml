@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D0C7C7"
+    android:backgroundTint="#CADECA"
+    android:foregroundTint="#DFD0D0">
+
+    <Button
+        android:id="@+id/friendsbutton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="monospace"
+        android:text="Friends"
+        app:layout_constraintBottom_toTopOf="@+id/gamebutton"
+        app:layout_constraintEnd_toStartOf="@+id/historybutton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/historybutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="monospace"
+        android:text="Past Wrappeds"
+        app:layout_constraintBottom_toTopOf="@+id/settingsbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/friendsbutton" />
+
+    <Button
+        android:id="@+id/gamebutton"
+        android:layout_width="152dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="200dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="monospace"
+        android:text="Games"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/settingsbutton"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/settingsbutton"
+        android:layout_width="143dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="200dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="monospace"
+        android:text="Settings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gamebutton" />
+
+    <Button
+        android:id="@+id/wrappedbutton"
+        android:layout_width="338dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="71dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="monospace"
+        android:text="Wrapped"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:iconTint="#4CAF50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
