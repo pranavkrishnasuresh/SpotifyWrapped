@@ -1,1 +1,1 @@
-# SpotifyWrapped - CS 2340 Project 2
+# SpotifyWrapped - GT CS 2340
