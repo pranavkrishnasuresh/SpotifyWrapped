@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "843627102293",
+    "firebase_url": "https://spotify-wrapped-project-a7e1f-default-rtdb.firebaseio.com",
+    "project_id": "spotify-wrapped-project-a7e1f",
+    "storage_bucket": "spotify-wrapped-project-a7e1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843627102293:android:8c1d553f8967cbc8eed4dc",
+        "android_client_info": {
+          "package_name": "com.example.spotifytutorialtrialrun"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnnliNOLzeRUvpEFXZBiIUgNmniavt1yA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
