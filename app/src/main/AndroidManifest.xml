@@ -44,6 +44,36 @@
             android:exported="true">
         </activity>
 
+        <activity
+            android:name=".FriendsActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".InviteFriendsActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".FriendRequestsActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".HistoryActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".PastWrappedActivity"
+            android:exported="true">
+        </activity>
+
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="true">
+        </activity>
+
     </application>
 
 </manifest>

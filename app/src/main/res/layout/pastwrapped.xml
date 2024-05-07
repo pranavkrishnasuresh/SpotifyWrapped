@@ -5,14 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#2D312D"
-    android:backgroundTint="#000000"><![CDATA[
-
-    />
-
-    ]]>
+    android:backgroundTint="#000000">
 
     <Button
-        android:id="@+id/wrappedbackbutton"
+        android:id="@+id/pastwrappedbackbutton"
         android:layout_width="385dp"
         android:layout_height="51dp"
         android:layout_marginBottom="8dp"
@@ -25,7 +21,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/dateTextView"
+        android:id="@+id/pastDateTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
@@ -41,27 +37,27 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/artistRecyclerView"
+        android:id="@+id/pastArtistRecyclerView"
         android:layout_width="315dp"
         android:layout_height="173dp"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/favartists"
+        app:layout_constraintTop_toBottomOf="@id/pastfavartists"
         tools:ignore="MissingConstraints" />
     />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/songRecyclerView"
+        android:id="@+id/pastSongRecyclerView"
         android:layout_width="315dp"
         android:layout_height="196dp"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/favsongs" />
+        app:layout_constraintTop_toBottomOf="@+id/pastfavsongs" />
 
     <TextView
-        android:id="@+id/favartists"
+        android:id="@+id/pastfavartists"
         android:layout_width="220dp"
         android:layout_height="25dp"
         android:layout_marginTop="32dp"
@@ -70,13 +66,13 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/artistRecyclerView"
+        app:layout_constraintBottom_toTopOf="@+id/pastArtistRecyclerView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dateTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/pastDateTextView" />
 
     <TextView
-        android:id="@+id/favsongs"
+        android:id="@+id/pastfavsongs"
         android:layout_width="219dp"
         android:layout_height="25dp"
         android:layout_marginTop="36dp"
@@ -87,6 +83,5 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/artistRecyclerView" />
-
+        app:layout_constraintTop_toBottomOf="@+id/pastArtistRecyclerView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
